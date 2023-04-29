@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/static/img/v1.jpg" class="d-block w-100" alt="..." style="width:50%;height:360px">
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/v2.jpg" class="d-block w-100" alt="..." style="width:50%;height:360px">
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/v3.jpg" class="d-block w-100" alt="..." style="width:50%;height:360px">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+     <h1 class="text-center m-3"> ------------------- </h1>
+    <div class="container">
+        <div class="accordion" accordion-flush" id="accordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="one">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+                    <h2 class="text-success">История северной столицы</h2>
+                </button>
+                </h3>
+                <div id="collapse-one" class="accordion-collapse collapse" aria-labelledby="one" data-bs-parent="#accordion">
+                    <h5 div class="accordion-body text-wrap" style="width: 60rem;">
+
+                        <p class="text-start">16 (27) мая 1703 года на Заячьем острове основали крепость. Вопреки легендам, никакого официального имени ей в тот день не дали.  </p>
+                        <p class="text-start">Петр I чаще всего писал на голландский манер: Санкт-Питербурх, что и принято считать первым именем города. </p>
+                        <p class="text-start">В письменных свидетельствах петровских времен город называли и Питерполом, и S. Петрополисом, а крепость еще много лет продолжала быть Санкт-питербурской фортецией и Санкт Питер Бургской фортофикацией.</p>
+                        <p class="text-start">Петр I неоднократно называл строящийся город Парадизом. Так, в 1710 году он писал Меншикову:
+                           «…И вас бы нам здесь видеть, дабы и вы красоту сего Парадиза (в котором добрым участником трудов был и есть) в заплату трудов своих, с нами купно причастником был, чего от сердца желаю". </p>
+                        <p class="text-start">16 июля 1703 года ближний стольник и будущий канцлер Петра I Гавриил Головкин писал: «Сей город новостроющийся назван в самый Петров день Петрополь и уже онаго едва не с половину состроили». Этот вариант прижился в поэзии XVIII века на фоне повального увлечения античностью. </p>
+                        <p class="text-start">Первое письменное упоминание «Питера» отдельно зафиксировано в комедии Фонвизина «Недоросль» в 1764 году. </p>
+                        <p class="text-start">Название «Северная Пальмира» появилось все в том же XVIII веке, после воцарения Екатерины II. Этот образ прижился, и холодный Петербург стал городом пальм. </p>
+
+                    </h5>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="two">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-two" aria-expanded="false" aria-controls="collapse-two">
+                    <h2 class="text-success">Город Герой - Ленинград</h2>
+                </button>
+                </h3>
+                <div id="collapse-two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordion">
+                    <h5 div class="accordion-body text-wrap" style="width: 60rem;" >
+                        <p class="text-start" >•	8 мая 1965 года Ленинграду присвоено звание «Город-герой». </p>
+                        <p class="text-start" >•	Вручены орден Ленина и медаль «Золотая Звезда».. </p>
+                        <p class="text-start" >•	Звание присвоено «за массовый героизм и мужество его защитников. </p>
+                        <p class="text-start" >•	Жертвами блокады стали более 650 тыс. жителей.</p>
+                        <p class="text-start" >•	Более 500 тыс. ленинградцев выходили на работы по строительству оборонительных сооружений </p>
+                        <p class="text-start" >•	Прорыв блокады Ленинграда произошёл 18 января 1943 года. 	</p>
+                        <p class="text-start" >•	22 декабря 1942 года Указом Президиума ВС СССР была учреждена медаль «За оборону Ленинграда» </p>
+                        <table border=""1" width=100%>
+                        <tr>
+                            <td width="70%"> Ожесточённые бои на подступах к Ленинграду начались 10 июля 1941 года.
+                                Численное превосходство изначально было на стороне противника:
+                                почти в 2,5 раза больше солдат, в 10 раз — самолётов, в 1,2 раза —
+                                танков и почти в 6 раз — миномётов. В итоге 8 сентября 1941 года гитлеровцам
+                                удалось захватить Шлиссельбург и таким образом взять под свой контроль
+                                исток Невы. В результате Ленинград был блокирован с суши (отрезан от
+                                Большой земли). Гитлеровцы рассчитывали голодом принудить город к сдаче.  </td>
+                            <td width="30%"><img src= "/static/img/len_1.jpg" align="right" width="70%" alt="Эмблема"> </td>
+                        </tr>
+                        <tr>
+                            <td width="70%"> <p>Первоначально предполагалось, что город возьмут сходу,
+                                по технике блицкрига. Но к тому времени, как войска немецкой армии подошли к
+                                намеченной цели, уже стало ясно, что на советской территории молниеносная война
+                                не получается. Военачальники были против прямого штурма укреплённого города.
+                                Так была предложена блокада Ленинграда. Вместо того чтобы нести неизбежные при
+                                штурме человеческие потери, немцы решили заморить город голодом.
+                                Постоянно поливая его при этом щедрым артиллерийским огнём.  </td>
+                            <td width="30%"><img src= "/static/img/len_2.jpg" align="right" width="70%" alt="Эмблема"> </td>
+                        </tr>
+                        <tr>
+                            <td width="70%"> <p>Когда блокадное кольцо сомкнулось, осталась единственная возможность связи
+                                с блокадным Ленинградом – через Ладожское озеро, побережье которого во
+                                время Великой Отечественной войны продолжала контролировать советская армия.
+                                Это озеро было очень сложным для судоходства. Неожиданные шквальные порывы
+                                ветра часто налетали на суда. Поэтому побережье не было оборудовано ни
+                                причалами, ни пирсами. </td>
+                            <td width="30%"><img src= "/static/img/len_5.jpg" align="right" width="70%" alt="Эмблема"> </td>
+                        </tr>
+                        <tr>
+                            <td width="70%"> <p> Тем временем положение в городе становилось всё хуже.
+                                Продовольствия катастрофически не хватало. На начало осады в городе находилось приблизительно 2,9 миллиона человек.
+                                Каких-то сколь-нибудь значительных запасов продуктов в Ленинграде не было.
+                                Он функционировал за счёт продукции, поставляемой из ленинградской области.
+                                Система выдачи продуктов по карточкам была введена сразу же.
+                                Однако нормы выдачи постоянно урезали. К ноябрю 1941 года ситуация была критической.
+                                Нормы выдачи хлеба упали ниже необходимого физиологического минимума.
+                                На день выдавали всего 125 грамм хлеба. Для рабочих паёк был чуть больше – 200 грамм.
+                            </td>
+                            <td width="30%"><img src= "/static/img/len_4.jpg" align="right" width="70%" alt="Эмблема"> </td>
+                        </tr>
+                        <tr>
+                            <td width="70%"> <p> Музыкальным символом победы в Великой Отечественной войне и подвига советского народа стала
+                                Ленинградская симфония Дмитрия Шостаковича. <a>...9 августа 1942 года Большой зал Ленинградской филармонии был переполнен.
+                                Здание было ярко освещено. Накануне и в день концерта велась мощная артподготовка,
+                                чтобы к Ленинграду не прорвался ни один вражеский бомбардировщик.
+                                Исполнение симфонии Дмитрия Шостаковича транслировалось по радио и по громкоговорителям.
+                                Изнеможденные ленинградцы слушали героическую музыку, что стало невероятным
+                                    событием и мощным ударом по боевому духу фашистских войск.<a href="https://yandex.ru/video/preview/4224409042577576320">  Слушать симфонию </a></p>
+                            </td>
+                            <td width="30%"><img src= "/static/img/len_6.jpg" align="right" width="70%" alt="Эмблема"> </td>
+                        </tr>
+                        </table>
+                    </h5>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="three">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-three" aria-expanded="false" aria-controls="collapse-three">
+                    <h2 class="text-success">Революционный Петроград </h2>
+                </button>
+                </h3>
+                <div id="collapse-three" class="accordion-collapse collapse" aria-labelledby="three" data-bs-parent="#accordion">
+                    <h5 div class="accordion-body text-wrap" style="width: 60rem;">
+
+                        <p class="text-start" >•  По решению Николая II во время Первой мировой войны немецкое название «Петербург» заменили на «Петроград».</p>
+                        <p class="text-start" >•  Несмотря на возмущение интеллигенции, имя Петроград город носил с августа 1914 года по январь 1924 года.</p>
+                        <p class="text-start" >•  Название Петроград сохранилось в топографии города — о нём напоминают названия некоторых точек на карте, например, Петроградский остров.</p>
+                        <p class="text-start" >•  Во время Октябрьской революции в ходу было наименование «Красный Питер». </p>
+                        <p class="text-start" >•  Карамзин отмечал: «Простой народ говорит у нас "Питер" вместо "Петербурга"</p>
+                        <p class="text-start" >•  С переименованием города в Ленинград слово «Питер» никуда не делось — его использовал даже Сталин.</p>
+
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
